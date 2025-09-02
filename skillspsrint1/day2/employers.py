@@ -16,16 +16,16 @@ rows = []
 # ## WRITE TO CSV
 # # csv writer() -> create the object that we are going to write into the csv for data to be added
 #
-header =['Name', 'Age']
-data =[['Alex', 25 ], ['Brad', 30], ['Joey', 18]]
-
-with open ('students_info.csv', 'w', newline="") as csvfile: # we've created the CSV writer object that we can now write to, W flag means we open in write mode
-    csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(header) #method in order to add the header as our first row
-    csvwriter.writerows(data) #writerows to add in our data
-
-## DICT
-# It creates an object that  operates like a regular reader, but maps the information into each row. to a dictionary whose keys are  given by the optional field names parameters. So essentially we're representing a slightly different data type
+# header =['Name', 'Age']
+# data =[['Alex', 25 ], ['Brad', 30], ['Joey', 18]]
+#
+# with open ('students_info.csv', 'w', newline="") as csvfile: # we've created the CSV writer object that we can now write to, W flag means we open in write mode
+#     csvwriter = csv.writer(csvfile)
+#     csvwriter.writerow(header) #method in order to add the header as our first row
+#     csvwriter.writerows(data) #writerows to add in our data
+#
+# ## DICT
+# It creates an object that  operates like a regular reader, but maps the information into each row to a dictionary whose keys are  given by the optional field names parameters. So essentially we're representing a slightly different data type
 
 # with open('employers.csv', newline="") as csvfile:
 #     reader = csv.DictReader(csvfile)
