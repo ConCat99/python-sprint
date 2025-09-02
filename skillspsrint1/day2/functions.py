@@ -46,22 +46,12 @@ print(is_even(5))
 # MVP
 # Write a function repeat_word(word, times)
 # It should return the word repeated times number of times.
-
-def repeat_word(word, iterations):
-    ## MY ATTEMPT
-    # words: []
-    # for word in range (iterations):
-    #     words.append(word)
-    #     return words
-
-    ##ANS:
- words = word * iterations
-
-
-print((repeat_word('blah', 3)))
-
-
-
+# print('repeat words challenge vv')
+#
+# def repeat_word(word, num):
+#         print( (word+' ' )* num)
+#
+# repeat_word('blah', 3)
 
 
 # Challenge 6: Factorial (Stretch)
