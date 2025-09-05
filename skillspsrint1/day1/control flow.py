@@ -11,7 +11,7 @@
 # else:
 #     print('Invalid score')
 
-# user_number=int(input("think of a number between 10 and 20: "))
+# user_number=int(input("think of a number between 10 and 20:"))
 # if user_number >= 10 and user_number <= 20:
 #     print('Good number')
 # else:
@@ -29,7 +29,7 @@
 
 # count = 10
 # while count>=1:
-#     print count
+#     print (count)
 #     count = count - 1
 
 ##--create a guessing game--
@@ -70,8 +70,8 @@ customer_dictionary={}
 exited= False
 
 while not exited:
-    first_name=input("Enter your first name: ")
-    last_name=input("Enter your last name: ")
+    first_name=input("Enter your first name:")
+    last_name=input("Enter your last name:")
     customer_dictionary['first_name']=first_name
     customer_dictionary['last_name']=last_name
     print(customer_dictionary)
